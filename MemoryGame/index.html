@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="results">
+        <button class="start-btn" onclick="start()" id="start-btn">
+          Start
+        </button>
+        <button class="reset-btn" onclick="reset()" id="reset-btn">
+          Reset
+        </button>
+        <div class="start">
+          <div class="moves">
+            <span id="move"></span>
+            /18 moves
+          </div>
+          <div class="time">
+            time:
+            <span id="count"></span>
+          </div>
+        </div>
+        <div id="WOrL"></div>
+      </div>
+      <div class="game" onload="getCardsReady()"></div>
+    </div>
+    <span id="press" style="margin-left: 120px; color: green;"></span>
+  </body>
+  <script src="JS/game.js" defer></script>
+</html>

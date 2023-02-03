@@ -1,0 +1,9 @@
+
+C:\Users\Balqees\OneDrive\سطح المكتب\training_balqees_khanfar\training_balqees_khanfar\MemoryGame\JS\game.js
+   91:12  error  'i' is already defined                      no-redeclare
+   97:10  error  'start' is defined but never used           no-unused-vars
+  121:7   error  'timer' is assigned a value but never used  no-unused-vars
+  137:10  error  'reset' is defined but never used           no-unused-vars
+
+✖ 4 problems (4 errors, 0 warnings)
+

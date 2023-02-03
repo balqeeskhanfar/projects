@@ -1,0 +1,13 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^11.1.0",
+    "cypress-wait-until": "^1.7.2"
+  }
+}
